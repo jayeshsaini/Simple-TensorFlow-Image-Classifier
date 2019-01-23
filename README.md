@@ -1,7 +1,7 @@
 # Simple-TensorFlow-Image-Classifier
 A generic image classification program that uses Google's Machine Learning library, [Tensorflow](https://www.tensorflow.org/) and a pre-trained Deep Learning Convolutional Neural Network model called [Inception](https://research.googleblog.com/2016/03/train-your-own-image-classifier-with.html).
 
-This model has been pre-trained for the [ImageNet](http://image-net.org/) Large Visual Recognition Challenge using the data from 2012, and it can differentiate between 1,000 different classes, like Dalmatian, dishwasher etc.
+This model has been pre-trained for the [ImageNet](http://image-net.org/) Large Visual Recognition Challenge using the data from 2012, and it can differentiate between 1,000 different classes, like Cats, Dogs, Cars, Faces etc.
 The program applies Transfer Learning to this existing model and re-trains it to classify a new set of images.
 
 
@@ -33,7 +33,7 @@ Create the ``dataset`` folder and add the images for all the data sets in the fo
 |         ...
 |
 ```
-This enables classification of images between the ``A`` and ``B`` data sets. The names of folder inside ``dataset`` folder will be returned on using ``classify.py``
+This enables classification of images between the ``A`` and ``B`` data sets. The names of these data sets inside ``dataset`` folder will be returned on using ``classify.py``
 
 
 ### Building the Model and initiating transfer learning
